@@ -1,4 +1,4 @@
-# Título del Artículo
+
 
 ## Autores
 Giuliana Herrera López, A01562646
