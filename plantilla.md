@@ -6,14 +6,14 @@ Maria Ramirez, A01562798
 Salvador Alejandro Robles Hernández, A01562588
 
 ## 1. Introducción
-
+<div style="text-align: justify;"
 En el ámbito del desarrollo de software, existen productos de carácter internacional cuyas interfaces suelen estar escritas en inglés debido a su amplio uso en el mercado global. Sin embargo, al buscar mejorar la experiencia del usuario, muchas empresas optan por implementar traducciones en sus productos para adaptarse a un público más amplio y diverso.No obstante, este enfoque presenta un desafío significativo: la necesidad de crear y traducir múltiples plantillas para cada idioma en el que se desee ofrecer el producto. Este proceso incrementa notablemente la complejidad del desarrollo del proyecto, tanto en términos técnicos como organizativos.
 
 Uno de los principales desafíos que existen en los software de venta internacional son las traducciones de las interfaces. Actualmente, el 50% del contenido en internet está en inglés (Statista, n.d.); sin embargo, solo el 20% de la población mundial habla este idioma, lo que puede representar una barrera para el acceso a la información para quienes no lo dominan, como también para empresas que ofrezcan sus servicios a otros países, esto puede ser una desventaja al solo cubrir los lenguajes más “comunes”.  Sin embargo,  también se encuentran traducciones automáticas en navegadores, pero en muchos de los casos estos navegadores no soportan todas las lenguas o tienden a tener errores semánticos dentro de las traducciones.  Adicionalmente, la ambigüedad intrínseca de los lenguajes, que son las frases o palabras con múltiples significados, requieren un contexto semántico de las palabras y de donde se encuentran. 
 
 De acuerdo a la revisión a la investigación sobre la traducción automática el uso de la IA ha evolucionado significativamente en la última década abriendo nuevas posibilidades para la traducción, aunque persisten desafíos claves. Estudios recientes destacan que, a pesar del avance de los modelos basados en redes neuronales (RNN) y transformadores (Vaswani et al., 2017), la calidad de las traducciones sigue siendo inconsistente en idiomas con recursos limitados. Este problema se agrava en contextos técnicos, donde la ambigüedad léxica y la falta de datos de entrenamiento especializados generan errores semánticos críticos (Hutchins, 2020).
 Ante la problemática descrita, se propone la investigación sobre el empleo de Large Language Models (LLMs) como posible solución para optimizar la calidad de las traducciones en sitios web.Así mismo estos modelos cuentan con la capacidad para analizar y procesar contextos complejos y adaptarse a las variaciones lingüísticas según el contexto en el que se encuentre, sin embargo pueden tener también alucinaciones por lo cual es de suma importancia el prompt que se genere para el modelo a utilizar y con esto determinar una evaluación es decir un valor de precisión al momento de generar las traducciones (Lin, 2024).
-
+/>
 
 ## Referencias
   Capellini, R., Atienza, F., & Sconfield, M. (2024). Knowledge Accuracy and Reducing Hallucinations in LLMs via Dynamic Domain Knowledge Injection. https://doi.org/10.21203/rs.3.rs-4540506/v1
