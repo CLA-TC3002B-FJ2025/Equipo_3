@@ -13,7 +13,7 @@ Uno de los principales desafíos que existen en los software de venta internacio
 
 De acuerdo a la revisión a la investigación sobre la traducción automática el uso de la IA ha evolucionado significativamente en la última década abriendo nuevas posibilidades para la traducción, aunque persisten desafíos claves. Estudios recientes destacan que, a pesar del avance de los modelos basados en redes neuronales (RNN) y transformadores (Vaswani et al., 2017), la calidad de las traducciones sigue siendo inconsistente en idiomas con recursos limitados. Este problema se agrava en contextos técnicos, donde la ambigüedad léxica y la falta de datos de entrenamiento especializados generan errores semánticos críticos (Hutchins, 2020).
 Ante la problemática descrita, se propone la investigación sobre el empleo de Large Language Models (LLMs) como posible solución para optimizar la calidad de las traducciones en sitios web.Así mismo estos modelos cuentan con la capacidad para analizar y procesar contextos complejos y adaptarse a las variaciones lingüísticas según el contexto en el que se encuentre, sin embargo pueden tener también alucinaciones por lo cual es de suma importancia el prompt que se genere para el modelo a utilizar y con esto determinar una evaluación es decir un valor de precisión al momento de generar las traducciones (Lin, 2024).
-/>
+</div>
 
 ## Referencias
   Capellini, R., Atienza, F., & Sconfield, M. (2024). Knowledge Accuracy and Reducing Hallucinations in LLMs via Dynamic Domain Knowledge Injection. https://doi.org/10.21203/rs.3.rs-4540506/v1
