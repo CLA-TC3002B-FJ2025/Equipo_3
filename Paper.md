@@ -136,6 +136,32 @@ El estudio destaca que el zero-shot prompting es el enfoque más viable para imp
 - Aunque el zero-shot prompting funciona bien en idiomas con amplia representación en los datos de pre-entrenamiento (como inglés o francés), su rendimiento es irregular en lenguas minoritarias o con estructuras complejas, donde la falta de contexto bilingüe afecta la fluidez y exactitud.
 - El estudio señala que la calidad de las traducciones zero-shot varía drásticamente según la formulación del prompt (instrucciones dadas al modelo), pero no ofrece una metodología estandarizada para optimizarlas. Esto deja una brecha crítica en la implementación práctica, donde prompts subóptimos pueden degradar los resultados.
 
+###
+**_Esquema Metodológico:_**
+
+### **_Tipo de investigación:_**  
+Mixta
+
+### **_Técnica principal de recolección de datos:_**
+
+**Evaluación cuantitativa:**  
+Se emplean métricas automáticas (como BLEU, MQM, SQM, GEMBA-MQM) para obtener puntuaciones numéricas sobre la calidad de las traducciones generadas por diferentes modelos de LLM. Estas métricas permiten comparar el rendimiento entre modelos de forma objetiva y reproducible.
+
+**Evaluación cualitativa:**  
+Se utilizan anotaciones de errores y escalas de valoración por parte de evaluadores humanos (estudiantes y profesionales), quienes identifican aspectos estilísticos, literarios y de adecuación cultural que los sistemas automáticos no capturan. Esta información se obtiene mediante esquemas como Best-Worst Scaling (BWS), anotación libre y análisis por categorías (como estilo, fluidez, terminología).
+
+La evaluación cuantitativa con métricas como BLEU y MQM permite identificar de forma sistemática en qué idiomas o estructuras los LLMs flaquean, señalando exactamente dónde falla el zero-shot prompting en lenguas minoritarias. Al mismo tiempo, el análisis cualitativo mediante Best-Worst Scaling y anotaciones humanas ofrece insights sobre cómo la formulación del prompt impacta la fluidez y la adecuación cultural, guiando la creación de plantillas estandarizadas que optimicen el diseño de prompts.
+
+### **_Datos cualitativos:_**  
+- Opiniones y juicios de evaluadores sobre el estilo, creatividad y adecuación de las traducciones.  
+- Análisis de errores o decisiones de traducción no detectadas por los sistemas automáticos.  
+- Argumentos sobre por qué una traducción humana puede ser mejor en términos literarios, corroborados con expertos.
+
+### **_Datos cuantitativos:_**  
+- Resultados de evaluaciones automáticas (BLEU, MQM score, SQM).  
+- Estadísticas de preferencia de traducción (porcentaje de veces que se elige la traducción humana sobre la de IA).  
+- Correlaciones entre métricas automáticas y evaluaciones humanas.  
+
 
 ## Referencias
   Capellini, R., Atienza, F., & Sconfield, M. (2024). Knowledge Accuracy and Reducing Hallucinations in LLMs via Dynamic Domain Knowledge Injection. https://doi.org/10.21203/rs.3.rs-4540506/v1
