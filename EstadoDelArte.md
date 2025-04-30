@@ -60,7 +60,7 @@ Local; and (6) No Traduccion.
 El enfoque de la forumula desarrollada con estas variables es poder definir una metrica de la precision de
 la traduccion, si el resultado de la formula es un numero alto indicaria que la
 traduccion no tiene una buena calidad. Asi mismo dentro de los hallgazgos
-encontrados
+encontrados 
 ###
 **Brechas Identificadas.**
 ###
