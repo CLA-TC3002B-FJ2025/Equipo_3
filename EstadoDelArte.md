@@ -35,7 +35,6 @@ prompt.
 
 
 **Brechas Identificadas.**
-
 ● Los LLMs aún enfrentan serias limitaciones al traducir lenguas con
 escasa representación digital, mostrando un rendimiento inferior al
 de modelos entrenados específicamente para esos contextos.
