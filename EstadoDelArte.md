@@ -38,11 +38,11 @@ prompt.
 ###
 **Brechas Identificadas.**
 ###
-● Los LLMs aún enfrentan serias limitaciones al traducir lenguas con
+● Limitaciones: Los LLMs aún enfrentan serias limitaciones al traducir lenguas con
 escasa representación digital, mostrando un rendimiento inferior al
 de modelos entrenados específicamente para esos contextos.
 ###
-● 
+● Persisten riesgos de sesgo y errores críticos en contextos sensibles: los LLMs pueden generar traducciones incorrectas o culturalmente inapropiadas, especialmente en textos relacionados con salud, derecho o política. La literatura señala que estos errores no siempre son detectados por métricas automáticas como BLEU o COMET, lo que plantea desafíos en entornos donde la precisión y neutralidad son fundamentales.
 ###
 **_Nombre:_** _How Good Are LLMs for Literary Translation, Really? Literary Translation
 Evaluation with Humans and LLMs._
