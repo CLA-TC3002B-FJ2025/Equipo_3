@@ -47,6 +47,8 @@ de modelos entrenados específicamente para esos contextos.
 **_Nombre:_** _How Good Are LLMs for Literary Translation, Really? Literary Translation
 Evaluation with Humans and LLMs._
 ###
+**_Autores:_** _‌ Zhang, R., Zhao, W., & Eger, S._
+###
 **Enfoques y Hallazgos.**
 El Articulo se enfoca en la evaluacion de la traduccion realizada por
 LLMs en comparacion de traducciones humanas, este estudio evalua tres
@@ -59,5 +61,7 @@ traduccion no tiene una buena calidad. Asi mismo dentro de los hallgazgos
 encontrados
 ###
 **Brechas Identificadas.**
+###
 ● 
+###
 ● 
