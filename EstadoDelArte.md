@@ -64,6 +64,6 @@ encontrados los LLMs han mejorado notablemente, las traducciones humanas siguen 
 ###
 **Brechas Identificadas.**
 ###
-● 
+● Limitaciones de los esquemas de evaluación actuales: El esquema MQM, aunque estándar para textos no literarios, se muestra inadecuado para evaluar traducciones literarias, especialmente cuando es usado por estudiantes sin experiencia. 
 ###
 ● 
