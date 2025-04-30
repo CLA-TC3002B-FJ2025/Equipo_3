@@ -75,6 +75,67 @@ encontrados los LLMs han mejorado notablemente, las traducciones humanas siguen 
 ###
 ● Traducciones de LLMs excesivamente literales: A pesar de sus avances, los LLMs siguen generando traducciones más sintácticamente similares al texto fuente, pero con menos creatividad, diversidad y sensibilidad cultural aspectos esenciales en la traducción literaria.
 
+###
+**_Nombre:_** _Llama Guard: LLM-based Input-Output Safeguard for Human-AI Conversations_
+###
+**_Autores:_** _Hakan Inan; Kartikeya Upasani; Jianfeng Chi; Rashi Rungta; Krithika Iyer; Yuning Mao; Michael Tontchev; Qing Hu; Brian Fuller; Davide Testuggine; Madian Khabsa._
+###
+**_Fuente:_** _Inan, H., Upasani, K., Chi, J., Rungta, R., Iyer, K., Mao, Y., Tontchev, M., Hu, Q., Fuller, B., Testuggine, D., & Khabsa, M. (2023). Llama Guard: LLM-based Input-Output Safeguard for Human-AI Conversations. ArXiv.org. https://arxiv.org/pdf/2312.06674_
+###
+**_Enfoques y Hallazgos._**  
+El artículo introduce un enfoque innovador para la moderación de contenido en conversaciones humano-IA mediante el uso de un modelo de lenguaje grande (LLM) especializado. A diferencia de herramientas tradicionales como OpenAI Moderation API, Llama Guard distingue entre la evaluación de riesgos en entradas de usuarios y sus respuestas, utilizando una taxonomía detallada de riesgos de seguridad. El modelo fue afinado con un conjunto de datos cuidadosamente anotado y demuestra una alta precisión en benchmarks como ToxicChat y el conjunto de evaluación de moderación de OpenAI, destacándose especialmente por su capacidad de adaptación mediante técnicas de zero-shot y few-shot prompting.
+
+Aunque Llama Guard muestra adaptabilidad, su rendimiento y cobertura podrían verse comprometidos en idiomas distintos al inglés, ya que tanto el preentrenamiento como el afinamiento del modelo se realizaron exclusivamente en inglés. Esto limita su aplicabilidad en contextos multilingües, una característica crítica en herramientas de moderación globales.
+
+###
+**_Brechas Identificadas._**  
+● ¿Qué estrategias de preentrenamiento y afinamiento multilingüe (por ejemplo, traducción automática, datos anotados en otros idiomas o ajustes de prompt) son más efectivas para garantizar que Llama Guard mantenga su desempeño en contextos distintos al inglés?
+
+###
+**_Nombre:_** _GenTranslate: Large Language Models are Generative Multilingual  Speech and Machine Translators_
+###
+**_Autores:_** _Yuchen Hu, ChenChen, Chao-HanHuckYang, Ruizhe Li, Dong Zhang,  Zhehuai Chen,  EngSiongChng._
+###
+**_Año:_** _2024_
+###
+**_Fuente:_** _Hu, Y., Chen, C., Yang, C. H., Li, R., Zhang, D., Chen, Z., & Chng, E. S. (2024, 10 febrero). GenTranslate: Large Language Models are Generative Multilingual Speech and Machine Translators. arXiv.org. https://arxiv.org/abs/2402.06894_
+
+###
+**_Enfoques y Hallazgos:_**
+
+Este artículo científico propone GenTranslate, un paradigma de IA generativa para traducción automática que aprovecha las capacidades de los modelos de lenguaje (LLMs) mediante un innovador proceso de fusión de hipótesis múltiples. A diferencia de los sistemas convencionales que seleccionan una única mejor traducción (top-1), este método recibe como entrada la lista N-best hypotheses (las N traducciones más probables generadas por el modelo base, ordenadas por puntuación), sintetiza estas variantes mediante razonamiento lingüístico con LLM para luego generar una traducción final enriquecida. 
+
+Los experimentos validan el enfoque en benchmarks estándar de la industria, WMT (Conference on Machine Translation): La principal competencia académica para evaluación de traducción de texto (MT), donde se reportan mejoras de +4.7 puntos BLEU (métrica que compara la superposición de n-gramas entre la traducción automática y referencias humanas)
+
+**Hallazgos clave:**  
+- El sistema demuestra versatilidad al procesar traducción texto-a-texto entre idiomas.  
+- Superioridad sobre métodos top-1 (los cuales eligen la traducción con mejor probabilidad) en 11 idiomas.  
+- Escalabilidad a dominios especializados (ej. médico, legal)
+
+###
+**_Brechas identificadas:_**  
+- Los LLMs (LLama2) en GenTranslate sólo se utilizan para integrar las hipótesis N-best generadas por el modelo base (SeamlessM4T), pero no participan directamente en la generación de traducciones.  
+- ¿Representaría una desventaja el seguir esta arquitectura modular (GenTranslate + SeamlessM4T) a diferencia de las arquitecturas monolíticas para la integración de nuestro reto?
+
+###
+**_Nombre:_** _Machine Translation with Large Language Models: Prompting, Few-shot Learning, and Fine-tuning with QLoRA_
+###
+**_Autores:_** _Xuan Zhang, Kevin Duh,  Navid Rajabi, Philipp Koehn._
+###
+**_Año:_** _2023_
+###
+**_Fuente:_** _Zhang, B., Haddow, B., & Birch, A. (2023). Machine translation with large language models: Prompting, few-shot learning, and fine-tuning with QLoRA. Proceedings of the Eighth Conference on Machine Translation, 446-462. https://aclanthology.org/2023.wmt-1.43/_
+
+###
+**_Enfoques y Hallazgos:_**
+
+El estudio destaca que el zero-shot prompting es el enfoque más viable para implementar APIs de traducción, debido a su bajo costo computacional y flexibilidad. Los experimentos revelan que, aunque el fine-tuning con QLoRA (que ajusta solo el 0.77% de los parámetros) logra mejoras significativas (+28.93 BLEU en francés-inglés), el prompting zero-shot permite obtener traducciones aceptables sin necesidad de datos etiquetados o ajustes específicos 1. Esto lo hace ideal para APIs que requieren escalabilidad y soporte multilingüe inmediato, especialmente en lenguajes con recursos limitados. Además, el trabajo demuestra que los LLMs pueden generar traducciones coherentes incluso sin ejemplos previos, aunque con menor precisión que métodos supervisados. 
+
+###
+**_Brechas identificadas:_**
+- Aunque el zero-shot prompting funciona bien en idiomas con amplia representación en los datos de pre-entrenamiento (como inglés o francés), su rendimiento es irregular en lenguas minoritarias o con estructuras complejas, donde la falta de contexto bilingüe afecta la fluidez y exactitud.
+- El estudio señala que la calidad de las traducciones zero-shot varía drásticamente según la formulación del prompt (instrucciones dadas al modelo), pero no ofrece una metodología estandarizada para optimizarlas. Esto deja una brecha crítica en la implementación práctica, donde prompts subóptimos pueden degradar los resultados.
+
 
 ## Referencias
   Capellini, R., Atienza, F., & Sconfield, M. (2024). Knowledge Accuracy and Reducing Hallucinations in LLMs via Dynamic Domain Knowledge Injection. https://doi.org/10.21203/rs.3.rs-4540506/v1
