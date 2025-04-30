@@ -21,6 +21,10 @@ lenguajes.
 **_Nombre:_** _Multilingual Machine Translation with Large Language Models: Empirical
 Results and Analysis_.
 ###
+**_Autores:_** _‌ Zhu, W., Liu, H., Dong, Q., Xu, J., Huang, S., Kong, L., Chen, J., & Li, L. _
+###
+**_Fuente:_** _Zhu, W., Liu, H., Dong, Q., Xu, J., Huang, S., Kong, L., Chen, J., & Li, L. (2023). Multilingual Machine Translation with Large Language Models: Empirical Results and Analysis. ArXiv.org. https://arxiv.org/abs/2304.04675_
+###
 **Enfoques y Hallazgos.**
 La literatura muestra a un crecimiento acelerado en el uso de large
 language models (LLMs) como GPT-4 y ChatGPT para la traducción automática
