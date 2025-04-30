@@ -60,7 +60,7 @@ Local; and (6) No Traduccion.
 El enfoque de la forumula desarrollada con estas variables es poder definir una metrica de la precision de
 la traduccion, si el resultado de la formula es un numero alto indicaria que la
 traduccion no tiene una buena calidad. Asi mismo dentro de los hallgazgos
-encontrados 
+encontrados los LLMs han mejorado notablemente, las traducciones humanas siguen siendo superiores en calidad literaria, especialmente en aspectos estilísticos y creativos. Además, el estudio demuestra que las evaluaciones humanas mediante esquemas simples como Best-Worst Scaling (BWS) son más eficaces que esquemas complejos como MQM, los cuales tienden a subestimar la calidad humana si son aplicados por evaluadores sin experiencia.
 ###
 **Brechas Identificadas.**
 ###
