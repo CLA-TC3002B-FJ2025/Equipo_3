@@ -57,4 +57,7 @@ El enfoque de la forumula desarrollada con estas variables es poder definir una 
 la traduccion, si el resultado de la formula es un numero alto indicaria que la
 traduccion no tiene una buena calidad. Asi mismo dentro de los hallgazgos
 encontrados
+###
 **Brechas Identificadas.**
+● 
+● 
