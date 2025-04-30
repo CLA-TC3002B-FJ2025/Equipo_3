@@ -49,6 +49,8 @@ Evaluation with Humans and LLMs._
 ###
 **_Autores:_** _‌ Zhang, R., Zhao, W., & Eger, S._
 ###
+**_Fuente:_** _‌Zhang, R., Zhao, W., & Eger, S. (2024). How Good Are LLMs for Literary Translation, Really? Literary Translation Evaluation with Humans and LLMs. ArXiv.org. https://arxiv.org/abs/2410.18697_
+###
 **Enfoques y Hallazgos.**
 El Articulo se enfoca en la evaluacion de la traduccion realizada por
 LLMs en comparacion de traducciones humanas, este estudio evalua tres
