@@ -17,8 +17,10 @@
 Este estudio examina los últimos avances de large language models,
 destacando aplicaciones prácticas y direcciones futuras para la traducción de
 lenguajes.
+###
 **_Nombre:_** _Multilingual Machine Translation with Large Language Models: Empirical
 Results and Analysis_.
+###
 **Enfoques y Hallazgos.**
 La literatura muestra a un crecimiento acelerado en el uso de large
 language models (LLMs) como GPT-4 y ChatGPT para la traducción automática
@@ -33,8 +35,9 @@ mejora significativamente con el diseño adecuado de plantillas y ejemplos en el
 prompt.
 
 
-
+###
 **Brechas Identificadas.**
+###
 ● Los LLMs aún enfrentan serias limitaciones al traducir lenguas con
 escasa representación digital, mostrando un rendimiento inferior al
 de modelos entrenados específicamente para esos contextos.
