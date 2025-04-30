@@ -4,7 +4,7 @@
 
 #### Alumnos:
 
-#### Giuliana Herrera López, A
+#### Giuliana Herrera López, 
 
 #### Salvador Alejandro Robles Hernández,
 
