@@ -1,9 +1,8 @@
 
 
 ## Autores
-Giuliana Herrera López, A01562646
-Maria Ramirez, A01562798
-Salvador Alejandro Robles Hernández, A01562588
+Giuliana Herrera López - A01562646, Maria Ramirez - A01562798,
+Salvador Alejandro Robles Hernández - A01562588
 
 ## 1. Introducción
 <div style="text-align: justify;"
